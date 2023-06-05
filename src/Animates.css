@@ -1,0 +1,53 @@
+@keyframes spin-fast {
+    0% {
+        top: 6em;
+        left: 6em;
+        right: -2em;
+        bottom: -2em;
+    }
+
+    50% {
+        top: -2em;
+        left: 6em;
+        right: -2em;
+        bottom: 6em;
+    }
+
+    100% {
+        top: -2em;
+        left: -2em;
+        right: 6em;
+        bottom: 6em;
+    }
+}
+
+@keyframes spin-fast-two {
+    0% {
+        top: -2em;
+        left: -2em;
+        right: 6em;
+        bottom: 6em;
+    }
+
+    50% {
+        top: 6em;
+        left: -2em;
+        right: 6em;
+        bottom: -2em;
+    }
+
+    100% {
+        top: 6em;
+        left: 6em;
+        right: -2em;
+        bottom: -2em;
+    }
+}
+
+.animate-spin-fast {
+    animation: spin-fast 0.75s linear;
+}
+
+.animate-spin-fast-two {
+    animation: spin-fast-two 0.75s linear;
+}
