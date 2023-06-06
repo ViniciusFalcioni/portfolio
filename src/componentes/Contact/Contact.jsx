@@ -27,10 +27,7 @@ export default function Contact() {
                 setName('')
                 setEmail('')
                 setMessage('')
-<<<<<<< HEAD
                 alert("E-mail enviado!")
-=======
->>>>>>> 22bd7018bfc9fc1d63c0ba63f71767bea5279aa0
             }, (err) => {
                 console.log("Erro: ", err)
             })
