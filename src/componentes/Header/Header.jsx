@@ -14,7 +14,7 @@ export default function Header() {
     <div className='font-rubik text-gray-800'>
       <div className='shadow-md max-w-full'>
         <div className='flex flex-row justify-between container mx-auto py-5 items-center px-4'>
-          <h1 className='text-3xl text-customBlue font-bold'>Vinicius</h1>
+          <a href='https://myportfolio-vinicius.vercel.app/' className='text-3xl text-customBlue font-bold'>Vinicius</a>
 
           <nav className='hidden lg:flex flex-row lg:w-1/2 justify-between'>
             <ul className='flex flex-row gap-10  text-lg'>
