@@ -16,7 +16,7 @@ export default function Presentation() {
                     </div>
                 </div>
                 <div className='relative inline-block'>
-                    <img className='w-[400px] shadow relative z-10' src={Vinicius} alt="Esse sou eu Vinicius" />
+                    <img className='a w-60 md:w-[370px] shadow relative z-10' src={Vinicius} alt="Esse sou eu Vinicius" />
                     <div className='absolute top-[6em] left-[6em] right-[-2em] bottom-[-2em] bg-customBlue z-0 animate-spin-fast'></div>
                     <div className='absolute top-[-2em] left-[-2em] right-[6em] bottom-[6em] bg-customBlue z-0 animate-spin-fast-two'></div>
                 </div>

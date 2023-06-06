@@ -6,10 +6,11 @@ import { LinkedIn, Instagram, GitHub, Menu } from '@mui/icons-material';
 export default function About() {
     return (
         <div id='about' className='bg-slate-100'>
-            <div className='container mx-auto font-rubik px-4 py-20 relative overflow-hidden'>
+            <div className='container mx-auto font-rubik px-4 py-16 relative overflow-hidden'>
                 <div className='grid grid-cols-1 lg:grid-cols-4 justify-center items-center place-items-center gap-8'>
                     <div className='col-span-1 w-full h-full flex flex-row justify-center gap-6'>
-                        <div className='bg-customBlue absolute top-0 lg:static w-full h-auto inset-x-0 flex flex-col justify-center items-center p-8 text-center'>
+
+                        <div className='bg-customBlue absolute bottom-0 lg:static w-full h-auto inset-x-0 flex flex-col justify-center items-center p-8 text-center'>
                             <div className='w-36 h-36 rounded-full overflow-hidden mb-4'>
                                 <img className='w-full h-full object-cover object-center' src={ViniciusImg} alt="Imagem do Vinicius" />
                             </div>
@@ -22,7 +23,8 @@ export default function About() {
                                 <a target='_blank' className="text-white hover:text-gray-300" href="https://www.instagram.com/vinicius_falcioni/"><Instagram /></a>
                             </div>
                         </div>
-                        <div class="block lg:hidden pb-72"></div>
+
+
                     </div>
                     <div className='col-span-1 lg:col-span-3 text-justify'>
                         <div className='flex flex-row items-center justify-center lg:justify-start gap-2'>
@@ -40,6 +42,8 @@ export default function About() {
                         <p className='mt-8 mb-8'>Olhando para o futuro, Penso em crescer como profissional e de construir minha própria empresa no ramo da tecnologia.</p>
                     </div>
 
+                
+                    <div className="block lg:hidden pb-60"></div>
                 </div>
             </div>
         </div>

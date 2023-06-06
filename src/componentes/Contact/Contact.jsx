@@ -4,7 +4,7 @@ import { ExpandCircleDownOutlined, Mail, WhatsApp, LinkedIn, Instagram, GitHub }
 export default function Contact() {
     return (
         <div id='contact' className='bg-customBlue text-white'>
-            <div className='container mx-auto font-rubik px-4 pt-20 py-10 overflow-hidden'>
+            <div className='container mx-auto font-rubik px-4 pt-16 py-10 overflow-hidden'>
                 <div className='flex flex-col justify-center items-center'>
                     <div className='flex flex-row items-center gap-2'>
                         <h2 className='text-4xl font-bold text-white leading-tight'>Contato</h2>
@@ -15,17 +15,17 @@ export default function Contact() {
 
 
                         <form className='flex flex-col gap-6 w-full' action="">
-                            <div class="flex flex-col">
-                                <label for="input" class="text-white mb-2">Nome:</label>
-                                <input type="text" id="input" class="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
+                            <div className="flex flex-col">
+                                <label htmlFor="input" className="text-white mb-2">Nome:</label>
+                                <input type="text" id="input" className="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
                             </div>
-                            <div class="flex flex-col">
-                                <label for="input" class="text-white mb-2">E-mail:</label>
-                                <input type="email" id="input" class="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
+                            <div className="flex flex-col">
+                                <label htmlFor="input" className="text-white mb-2">E-mail:</label>
+                                <input type="email" id="input" className="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
                             </div>
-                            <div class="flex flex-col">
-                                <label for="input" class="text-white mb-2">Mensagem:</label>
-                                <textarea type="text" id="input" class="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
+                            <div className="flex flex-col">
+                                <label htmlFor="input" className="text-white mb-2">Mensagem:</label>
+                                <textarea type="text" id="input" className="w-full lg:w-96 border border-gray-300 rounded p-2 text-gray-500" placeholder="Digite aqui" />
                             </div>
                             <button className='bg-customBlueClear p-2 hover:scale-105' type='submit'>Enviar</button>
                         </form>
